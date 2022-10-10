@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>TPA 2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+	<table>
+		<thead>
+			<tr>
+				<th><strong>Check Your BMI</strong></th>               
+			</tr>
+            <tr>
+                <td ><p>Enter your weight and height below to check your BMI result</p></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Put your weight in here (KG)</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="ipt_t"></td>
+			</tr>
+			<tr>
+				<td>And Your height in here (CM)</td>
+			</tr>
+			<tr>
+				<td><input type="text" id="ipt_b"></td>
+			</tr>
+			<tr>
+				<td><br><button onclick="hitung()">Calculate BMI</button><br></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td id="bmi"></td>
+			</tr>			
+		</tfoot>
+	</table>
+</div>
+<script type="text/javascript" src="bmi.js"></script>
+</body>
+</html>
